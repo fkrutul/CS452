@@ -72,7 +72,7 @@ public class randompart {
 		A[y] = a;
 	}
 
-	// Driver program to test above methods 
+	// Driver program to test the above methods 
     public static void main(String args[]) throws FileNotFoundException { 
 		
 		int[] size = {10000,20000,30000,40000,50000};
