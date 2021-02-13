@@ -11,8 +11,8 @@ public class BruteInversions {
 		Scanner scan = new Scanner(new File(filePath));
 		ArrayList<Integer> List = new ArrayList<Integer>();
 		while (scan.hasNextInt()){
-            int i = scan.nextInt();
-            List.add(i); 
+            		int i = scan.nextInt();
+            		List.add(i); 
         }
 		scan.close();
 		return List;
