@@ -23,7 +23,7 @@ public class Robber {
 	public static int maxRob(int[] data) {	
 		int max = 0; // Initalize maximum variable for greedy approach
  		int length = data.length; // Store length of data array in a variable
-    		int[] sums = new int[length]; // Initialize array to store the cumulative loot um
+    		int[] sums = new int[length]; // Initialize array to store the cumulative loot 
     		sums[0] = data[0]; // Known value, no movements made yet
     		if(data[0] < data[1]) { // The following 5 lines select the maximum of the two values
     			max = data[1];
